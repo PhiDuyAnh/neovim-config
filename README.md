@@ -12,6 +12,12 @@
 npm install tree-sitter-cli
 ```
 
+- Or just download the binary from Github releases: https://github.com/tree-sitter/tree-sitter/releases
+
+```bash
+unzip tree-sitter-cli-linux-x64.zip
+```
+
 ### ripgrep
 
 ```bash
