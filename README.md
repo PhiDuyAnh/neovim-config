@@ -3,6 +3,10 @@
 ## Required Installation
 
 - Download Neovim 0.12.0 here: https://github.com/neovim/neovim/releases/tag/v0.12.0
+- Create symlink for nvim:
+```bash
+ln -s ~/nvim-linux-x86_64/bin/nvim ~/bin/nvim
+```
 
 ## Installation for plugins to work
 
