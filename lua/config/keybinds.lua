@@ -1,6 +1,11 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>cd", vim.cmd.Ex)
 
+-- In your init.lua
+vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, { desc = 'Go to Definition' })
+vim.keymap.set('n', '<leader>gD', vim.lsp.buf.declaration, { desc = 'Go to Declaration' })
+vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, { desc = 'Go to References' })
+
 -- Format the current file with Ruff
 vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, { desc = '[G]o [F]ormat' })
 
