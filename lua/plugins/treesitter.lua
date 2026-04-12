@@ -37,6 +37,7 @@ return {
             "query",
             "markdown",
             "markdown_inline",
+	    "rust",
         })
 
         -- 2. Highlighting is no longer handled by the plugin. 
