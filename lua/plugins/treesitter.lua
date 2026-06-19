@@ -38,6 +38,11 @@ return {
             "markdown",
             "markdown_inline",
 	    "rust",
+	    "javascript",
+    	    "typescript",
+    	    "tsx",
+    	    "json",
+    	    "jsonc",
         })
 
         -- 2. Highlighting is no longer handled by the plugin. 

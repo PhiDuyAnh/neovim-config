@@ -11,6 +11,8 @@ return {
 
     -- 2. Define your servers and their custom settings here
     local servers = {
+     vtsls = {},
+     eslint = {},
      pylsp = {
         settings = {
           pylsp = {
